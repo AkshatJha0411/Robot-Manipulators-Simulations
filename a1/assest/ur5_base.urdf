@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<robot name="robot_base">
+
+  <!-- Simple cylindrical base -->
+  <link name="base">
+    <visual>
+      <geometry>
+        <cylinder radius="0.1" length="0.38"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <material name="DarkGrey">
+        <color rgba="0.4 0.4 0.4 1.0"/>
+      </material>
+    </visual>
+
+    <collision>
+      <geometry>
+        <cylinder radius="0.1" length="0.38"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </collision>
+
+    <inertial>
+      <mass value="5"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.01" ixy="0" ixz="0"
+               iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+
+</robot>
