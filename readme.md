@@ -29,19 +29,19 @@ ASSIGNMENTS
 │   ├── env.png              # Environment snapshot
 │   └── Assignment1.pdf      # Problem statement
 │
-└── a2
-├── assets/              # Surface, plane, and models
-├── utils.py             # Shared helper functions
-├── p1.py                # Admittance Control (Static)
-├── p2.py                # Admittance Control (Dynamic)
-├── p3.py                # Impedance Control (Static)
-├── p4.py                # Impedance Control (Dynamic)
-├── p6.py                # Control on varying/tilted surface
-├── extra.py             # Additional variation testing
-├── env.png              # Simulation environment snapshot
-└── Assignment2.pdf      # Problem statement
-
-````
+├── a2
+│   ├── assets/              # Surface, plane, and models
+│   ├── utils.py             # Shared helper functions
+│   ├── p1.py                # Admittance Control (Static)
+│   ├── p2.py                # Admittance Control (Dynamic)
+│   ├── p3.py                # Impedance Control (Static)
+│   ├── p4.py                # Impedance Control (Dynamic)
+│   ├── p6.py                # Control on varying/tilted surface
+│   ├── extra.py             # Additional variation testing
+│   ├── env.png              # Simulation environment snapshot
+│   └── Assignment2.pdf      # Problem statement
+├──readme.md
+```
 
 ---
 
